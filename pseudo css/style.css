@@ -1,0 +1,22 @@
+a:hover {
+    color: brown;
+}
+a:visited {
+    color: blueviolet;
+}
+input:focus {
+    background-color: brown;
+}
+p:first-child {
+    /*p tag which is the first child of its parent*/
+    color: red;
+}
+p:last-child {
+    /* p tag which is the last child of its parent*/
+    font-style: oblique;
+    color: burlywood;
+}
+p:nth-child(3) {
+    color: rgb(12, 67, 70);
+} 
+ 

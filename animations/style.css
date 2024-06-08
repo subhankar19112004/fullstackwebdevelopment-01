@@ -1,0 +1,30 @@
+#rotate{
+    height: 100px;
+    width: 100px;
+    border-radius: 75px;
+    margin-left: 300px;
+    background-color: blue;
+}
+#rotate:hover{
+    animation-name: widthandcolour;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    animation-direction: inherit;
+     
+}
+@keyframes widthandcolour {
+    0%{
+        background-color: blue;
+        width: 100px;
+    }
+    50%{
+        background-color: green;
+        width: 200px;
+    }
+    100%{
+        background-color: red;
+        width: 400px;
+    }
+    
+}
